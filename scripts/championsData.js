@@ -2,8 +2,8 @@
 let ALL_CHAMPIONS = []; 
 
 // Step 1: Get the container and the search bar
-const championsContainer = document.getElementById('champions-grid');
-const searchField = document.getElementById('search-field'); // <-- NEW: Get the search input
+const championsContainer = document.querySelector('.js-champions-grid');
+const searchField = document.querySelector('.js-search-field'); // <-- NEW: Get the search input
 
 // Function to create and append the champion cards
 function renderChampions(championList, container) {

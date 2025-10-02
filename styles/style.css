@@ -95,7 +95,7 @@ h2 {
 }
 
 
-#champions-grid {
+.champions-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
     justify-content: center;
