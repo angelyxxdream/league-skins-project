@@ -1,0 +1,850 @@
+[
+    {
+        "champion_name": "Aatrox",
+        "render_source": "img/render/Aatrox_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+      {
+        "champion_name": "Ahri",
+        "render_source": "img/render/Ahri_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+     {
+        "champion_name": "Akali",
+        "render_source": "img/render/Akali_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+     {
+        "champion_name": "Akshan",
+        "render_source": "img/render/Akshan_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+     {
+        "champion_name": "Alistar",
+        "render_source": "img/render/Alistar_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+     {
+        "champion_name": "Ambessa",
+        "render_source": "img/render/Ambessa_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+     {
+        "champion_name": "Amumu",
+        "render_source": "img/render/Amumu_Render.webp",
+        "last_skin_days": "x days since last release"
+    }, 
+    {
+        "champion_name": "Anivia",
+        "render_source": "img/render/Anivia_Render.webp",
+        "last_skin_days": "x days since last release"
+    }, 
+    {
+        "champion_name": "Annie",
+        "render_source": "img/render/Annie_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Aphelios",
+        "render_source": "img/render/Aphelios_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Ashe",
+        "render_source": "img/render/Ashe_Render.webp",
+        "last_skin_days": "x days since last release"
+    }, 
+    {
+        "champion_name": "Aurelion Sol",
+        "render_source": "img/render/Aurelion_Sol_Render.png",
+        "last_skin_days": "x days since last release"
+    }, 
+    {
+        "champion_name": "Aurora",
+        "render_source": "img/render/Aurora_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Azir",
+        "render_source": "img/render/Azir_Render.png",
+        "last_skin_days": "x days since last release"
+    },  
+    {
+        "champion_name": "Bard",
+        "render_source": "img/render/Bard_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Bel'Veth",
+        "render_source": "img/render/Bel'Veth_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Blitzcrank",
+        "render_source": "img/render/Blitzcrank_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+   {
+        "champion_name": "Brand",
+        "render_source": "img/render/Brand_Render.webp",
+        "last_skin_days": "x days since last release"
+    }, 
+    {
+        "champion_name": "Braum",
+        "render_source": "img/render/Braum_Render.png",
+        "last_skin_days": "x days since last release"
+    }, 
+    {
+        "champion_name": "Briar",
+        "render_source": "img/render/Briar_Render.png",
+        "last_skin_days": "x days since last release"
+    }, 
+    {
+        "champion_name": "Caitlyn",
+        "render_source": "img/render/Caitlyn_Render.png",
+        "last_skin_days": "x days since last release"
+    }, 
+    {
+        "champion_name": "Camille",
+        "render_source": "img/render/Camille_Render.png",
+        "last_skin_days": "x days since last release"
+    }, 
+    {
+        "champion_name": "Cassiopeia",
+        "render_source": "img/render/Cassiopeia_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Cho'Gath",
+        "render_source": "img/render/Cho'Gath_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Corki",
+        "render_source": "img/render/Corki_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Darius",
+        "render_source": "img/render/Darius_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Diana",
+        "render_source": "img/render/Diana_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Dr. Mundo",
+        "render_source": "img/render/Dr._Mundo_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Draven",
+        "render_source": "img/render/Draven_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Ekko",
+        "render_source": "img/render/Ekko_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Elise",
+        "render_source": "img/render/Elise_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Evelynn",
+        "render_source": "img/render/Evelynn_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Ezreal",
+        "render_source": "img/render/Ezreal_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+      {
+        "champion_name": "Fiddlestics",
+        "render_source": "img/render/Fiddlesticks_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+      {
+        "champion_name": "Fiora",
+        "render_source": "img/render/Fiora_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Fizz",
+        "render_source": "img/render/Fizz_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Galio",
+        "render_source": "img/render/Galio_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Gangplank",
+        "render_source": "img/render/Gangplank_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Garen",
+        "render_source": "img/render/Garen_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Gnar",
+        "render_source": "img/render/Gnar_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Gragas",
+        "render_source": "img/render/Gragas_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Graves",
+        "render_source": "img/render/Graves_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Gwen",
+        "render_source": "img/render/Gwen_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Hecarim",
+        "render_source": "img/render/Hecarim_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Heimerdinger",
+        "render_source": "img/render/Heimerdinger_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Hwei",
+        "render_source": "img/render/Hwei_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Illaoi",
+        "render_source": "img/render/Illaoi_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Irelia",
+        "render_source": "img/render/Irelia_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Ivern",
+        "render_source": "img/render/Ivern_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Janna",
+        "render_source": "img/render/Janna_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Jarvan IV",
+        "render_source": "img/render/Jarvan_IV_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Jax",
+        "render_source": "img/render/Jax_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Jayce",
+        "render_source": "img/render/Jayce_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Jhin",
+        "render_source": "img/render/Jhin_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Jinx",
+        "render_source": "img/render/Jinx_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Kai'sa",
+        "render_source": "img/render/Kaisa_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Kalista",
+        "render_source": "img/render/Kalista_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Karma",
+        "render_source": "img/render/Karma_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Karthus",
+        "render_source": "img/render/Karthus_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Kassadin",
+        "render_source": "img/render/Kassadin_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Katarina",
+        "render_source": "img/render/Katarina_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Kayle",
+        "render_source": "img/render/Kayle_Zealous_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Kayn",
+        "render_source": "img/render/Kayn_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Kennen",
+        "render_source": "img/render/Kennen_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Kha'Zix",
+        "render_source": "img/render/Kha'Zix_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Kindred",
+        "render_source": "img/render/Kindred_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Kled",
+        "render_source": "img/render/Kled_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Kog'Maw",
+        "render_source": "img/render/Kog'Maw_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "K'Sante",
+        "render_source": "img/render/K'Sante_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "LeBlanc",
+        "render_source": "img/render/LeBlanc_Render.png",
+        "last_skin_days": "x days since last release"
+    }, 
+    {
+        "champion_name": "Lee Sin",
+        "render_source": "img/render/Lee_Sin_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Leona",
+        "render_source": "img/render/Leona_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Lillia",
+        "render_source": "img/render/Lillia_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Lissandra",
+        "render_source": "img/render/Lissandra_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Lucian",
+        "render_source": "img/render/Lucian_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Lulu",
+        "render_source": "img/render/Lulu_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Lux",
+        "render_source": "img/render/Lux_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Malphite",
+        "render_source": "img/render/Malphite_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Malzahar",
+        "render_source": "img/render/Malzahar_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Maokai",
+        "render_source": "img/render/Maokai_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Master Yi",
+        "render_source": "img/render/Master_Yi_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Mel",
+        "render_source": "img/render/Mel_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Milio",
+        "render_source": "img/render/Milio_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Miss Fortune",
+        "render_source": "img/render/Miss_Fortune_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Mordekaiser",
+        "render_source": "img/render/Mordekaiser_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Morgana",
+        "render_source": "img/render/Morgana_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Naafiri",
+        "render_source": "img/render/Naafiri_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Nami",
+        "render_source": "img/render/Nami_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Nasus",
+        "render_source": "img/render/Nasus_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Nautilus",
+        "render_source": "img/render/Nautilus_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Neeko",
+        "render_source": "img/render/Neeko_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Nidalee",
+        "render_source": "img/render/Nidalee_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Nocturne",
+        "render_source": "img/render/Nocturne_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Nunu and Willump",
+        "render_source": "img/render/Nunu_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Olaf",
+        "render_source": "img/render/Olaf_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Oriana",
+        "render_source": "img/render/Orianna_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Ornn",
+        "render_source": "img/render/Ornn_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Pantheon",
+        "render_source": "img/render/Pantheon_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Poppy",
+        "render_source": "img/render/Poppy_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Pyke",
+        "render_source": "img/render/Pyke_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Qiyana",
+        "render_source": "img/render/Qiyana_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Quinn",
+        "render_source": "img/render/Quinn_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Rakan",
+        "render_source": "img/render/Rakan_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Rammus",
+        "render_source": "img/render/Rammus_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Rek'Sai",
+        "render_source": "img/render/RekSai_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Rell",
+        "render_source": "img/render/Rell_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Renata Glasc",
+        "render_source": "img/render/Renata_Glasc_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Renekton",
+        "render_source": "img/render/Renekton_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Rengar",
+        "render_source": "img/render/Rengar_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Riven",
+        "render_source": "img/render/Riven_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Rumble",
+        "render_source": "img/render/Rumble_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Ryze",
+        "render_source": "img/render/Ryze_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Samira",
+        "render_source": "img/render/Samira_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Sejuani",
+        "render_source": "img/render/Sejuani_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Senna",
+        "render_source": "img/render/Senna_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Seraphine",
+        "render_source": "img/render/Seraphine_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Sett",
+        "render_source": "img/render/Sett_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Shaco",
+        "render_source": "img/render/Shaco_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Shen",
+        "render_source": "img/render/Shen_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Shyvanna",
+        "render_source": "img/render/Shyvana_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Singed",
+        "render_source": "img/render/Singed_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Sion",
+        "render_source": "img/render/Sion_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Sivir",
+        "render_source": "img/render/Sivir_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Skarner",
+        "render_source": "img/render/Skarner_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Smolder",
+        "render_source": "img/render/Smolder_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Sona",
+        "render_source": "img/render/Sona_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Soraka",
+        "render_source": "img/render/Soraka_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Swain",
+        "render_source": "img/render/Swain_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Sylas",
+        "render_source": "img/render/Sylas_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Syndra",
+        "render_source": "img/render/Syndra_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Tahm Kench",
+        "render_source": "img/render/Tahm_Kench_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Taliyah",
+        "render_source": "img/render/Taliyah_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Talon",
+        "render_source": "img/render/Talon_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Taric",
+        "render_source": "img/render/Taric_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Teemo",
+        "render_source": "img/render/Teemo_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Thresh",
+        "render_source": "img/render/Thresh_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Tristana",
+        "render_source": "img/render/Tristana_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Trundle",
+        "render_source": "img/render/Trundle_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Twisted_Fate",
+        "render_source": "img/render/Twisted_Fate_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Twitch",
+        "render_source": "img/render/Twitch_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Udyr",
+        "render_source": "img/render/Udyr_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Urgot",
+        "render_source": "img/render/Urgot_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Varus",
+        "render_source": "img/render/Varus_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Vayne",
+        "render_source": "img/render/Vayne_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Veigar",
+        "render_source": "img/render/Veigar_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Vel'Koz",
+        "render_source": "img/render/Vel'Koz_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Vex",
+        "render_source": "img/render/Vex_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Viego",
+        "render_source": "img/render/Viego_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Viktor",
+        "render_source": "img/render/Viktor_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Vi",
+        "render_source": "img/render/Vi_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Vladimir",
+        "render_source": "img/render/Vladimir_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Volibear",
+        "render_source": "img/render/Volibear_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Warwick",
+        "render_source": "img/render/Warwick_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Wukong",
+        "render_source": "img/render/Wukong_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Xayah",
+        "render_source": "img/render/Xayah_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Xerath",
+        "render_source": "img/render/Xerath_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Xin Zhao",
+        "render_source": "img/render/Xin_Zhao_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Yasuo",
+        "render_source": "img/render/Yasuo_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Yone",
+        "render_source": "img/render/Yone_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Yorick",
+        "render_source": "img/render/Yorick_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Yunara",
+        "render_source": "img/render/Yunara_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Yuumi",
+        "render_source": "img/render/Zac_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Zac",
+        "render_source": "img/render/Vel'Koz_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Zed",
+        "render_source": "img/render/Zed_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Zeri",
+        "render_source": "img/render/Zeri_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Ziggs",
+        "render_source": "img/render/Ziggs_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Zilean",
+        "render_source": "img/render/Zilean_Render.png",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Zoe",
+        "render_source": "img/render/Zoe_Render.webp",
+        "last_skin_days": "x days since last release"
+    },
+    {
+        "champion_name": "Zyra",
+        "render_source": "img/render/Zyra_Render.png",
+        "last_skin_days": "x days since last release"
+    }
+    
+  
+    
+]

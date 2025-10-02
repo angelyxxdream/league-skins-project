@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     
-    <title>Last Skin Countdown</title>
+    <title>Days without a new skin</title>
 </head>
 <body>
    
@@ -17,26 +17,19 @@
         <nav>
             <ul>
                 <li>Main page</li>
-                <li>Top</li>
-                <li>Mid</li>
-                <li>Sup</li>
-                <li>ADC</li>
-                <li>About me</li>
+                <li><input class= "search_field" type="text" placeholder="Champion name"></li>
+                <li>About</li>
             </ul>
         </nav>
         <main>
             <h1>
-                Last skin released 
+                Days without a new skin 
             </h1>
 
             <h2>
                 See how much time has passed since your favorite champion got a new skin.
             </h2>
-            <section class="champions-container">
-                <h3>Champion name</h3>
-                <img src="" alt="">
-                <p>Last skin released x days ago.</p>
-            </section>
+            <section id="champions-grid"></section>
         </main>
         
         <footer>
@@ -47,5 +40,6 @@
             </p>
         </footer>
     </div>
+    <script src="scripts/championsData.js"></script>
 </body>
 </html>
