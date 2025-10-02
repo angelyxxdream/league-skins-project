@@ -806,12 +806,12 @@
     },
     {
         "champion_name": "Yuumi",
-        "render_source": "img/render/Zac_Render.png",
+        "render_source": "img/render/Yuumi_Render.png",
         "last_skin_days": "x days since last release"
     },
     {
         "champion_name": "Zac",
-        "render_source": "img/render/Vel'Koz_Render.png",
+        "render_source": "img/render/Zac_Render.png",
         "last_skin_days": "x days since last release"
     },
     {
