@@ -1,103 +1,144 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html, body {
     height: 100%;
-    margin: 0;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: #C9E4CA;
 }
+main{
+    flex-grow: 1;
+}
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation */
 nav {
     background-color: #3B6064;
-    color:#F0F0F0;
+    color: #F0F0F0;
 }
-nav ul  {
+
+nav ul {
     list-style-type: none;
     display: flex;
-    margin: 0;
-    width: 100%;
     justify-content: space-around;
+    align-items: center; /* vertical center of all li */
+    height: 60px; /* fixed nav height */
 }
+
 nav ul li {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-grow: 1;
-   text-align: center;
-   padding: 1rem;
-    
+    display: flex;
+    align-items: center; /* center content vertically */
+    justify-content: center;
+    padding: 0 1rem;
+    text-align: center;
 }
-.search_field{
-    width: 160px;
-    padding: 0.5rem;
+
+
+nav ul li a {
+    color: #F0F0F0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Search bar */
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search_field {
+    width: 200px;
+    height: 36px;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem; /* space for icon */
     border: none;
     border-radius: 5px;
     font-size: 1rem;
 }
-h1 {
-    text-align: center;
-    margin: 3rem;
-    color: #212121;
+
+.search-icon {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%); /* perfect vertical center */
+    cursor: pointer;
 }
 
+.search-icon img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+    color: #212121;
+}
 
 h2 {
     font-style: italic;
-    padding: 0.5%;
     text-align: center;
     color: #212121;
-   
+    margin-bottom: 2rem;
 }
-.champions-container {
-    background-color: #F0F0F0;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin: 10px;
-}
-footer {
-    position: bottom;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: #364958;
-    color: #F0F0F0;
-    padding: 3%;
-}
-footer a {
-    text-decoration: none;
-    color: #F0F0F0;
-    font-weight: bold;
-}
+
+
 #champions-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* responsive grid */
-  gap: 16px; /* space between cards */
-  padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
 }
 
 .champion-card {
-  background: #F0F0F0;  
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
+    background: #F0F0F0;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 .champion-card img {
-  width: 100%;         /* image fills card width */
-  height: 200px;       /* same height for all images */
-  object-fit: contain; /* keeps proportions, no stretching */
-  border-radius: 8px;  /* smooth edges */
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
 }
+
 .champion-card div {
     font-weight: 900;
     color: #212121;
 }
+
 .champion-card p {
     font-style: italic;
     color: #212121;
+}
+
+/* Footer */
+footer {
+    
+    text-align: center;
+    background-color: #364958;
+    color: #F0F0F0;
+    padding: 3%;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #F0F0F0;
+    font-weight: bold;
 }
