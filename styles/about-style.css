@@ -1,0 +1,131 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #C9E4CA;
+}
+main{
+    flex-grow: 1;
+}
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    background-color: #3B6064;
+    color: #F0F0F0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* vertical center of all li */
+    height: 60px; /* fixed nav height */
+}
+
+nav ul li {
+    display: flex;
+    align-items: center; /* center content vertically */
+    justify-content: center;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+
+nav ul li a {
+    color: #F0F0F0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.about-container {
+   border-radius: 5%;
+    min-height: 600px;
+    background-color: #F0F0F0;
+    text-align: center;
+    padding-top: 3rem; 
+    margin: 3rem 5vw; 
+
+}
+.angely-icon {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    object-fit: cover;
+    
+    /* A thin, friendly border from your palette */
+    border: 3px solid #55828B; 
+    
+    /* A soft, subtle shadow underneath */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    
+    transition: all 0.3s ease-out;
+    /* Optional: Start with a little color shift if you want */
+    filter: brightness(1); 
+}
+
+.angely-icon:hover {
+    /* Border color shifts to a slightly warmer/brighter tone (like a blush) */
+    border-color: #87BBA2; 
+    
+    /* Add a soft, radiating glow in a complementary cute color (e.g., a warm pink/peach not in your palette for a pop) */
+    /* If you want to stick to your palette, use a lighter green-blue like #C9E4CA or #55828B */
+    box-shadow: 
+        0 0 15px 5px rgba(255, 150, 150, 0.7), /* Soft pink/peach glow */
+        0 8px 20px rgba(0, 0, 0, 0.3); /* Stronger default shadow */
+        
+    transform: scale(1.03) rotate(2deg); /* A slight playful tilt and zoom */
+    filter: brightness(1.1); /* Slight brighten */
+    cursor: pointer;
+}
+
+
+/* Headings */
+.about-container h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #212121;
+}
+.media-icon {
+    width: 30px;
+    height: 30px;
+    margin: 1%;
+}
+
+h2 {
+   
+    text-align: center;
+    color: #212121;
+    margin: 1rem;
+}
+
+
+
+/* Footer */
+footer {
+    
+    text-align: center;
+    background-color: #364958;
+    color: #F0F0F0;
+    padding: 3%;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #F0F0F0;
+    font-weight: bold;
+}
