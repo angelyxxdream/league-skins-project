@@ -117,10 +117,10 @@ fetch('scripts/champions.json')
         } else if (days <= 0) { 
             displayMessage = '✨ NEW SKIN AVAILABLE NOW! ✨'; 
         } else if (days === 1) {
-            displayMessage = `${days} day since last release`;
+            displayMessage = `${days} day`;
         }
         else {
-            displayMessage = `${days} days since last release`;
+            displayMessage = `${days} days`;
         }
 
         return {
