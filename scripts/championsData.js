@@ -3,7 +3,7 @@ let ALL_CHAMPIONS = [];
 
 // Step 1: Get the container and the search bar
 const championsContainer = document.querySelector('.js-champions-grid');
-const searchField = document.querySelector('.js-search-field'); // <-- NEW: Get the search input
+const searchField = document.querySelector('.js-search-field'); 
 
 // Function to create and append the champion cards
 function renderChampions(championList, container) {
@@ -46,29 +46,6 @@ function renderChampions(championList, container) {
     }
 }
 
-
-// Step 2: Load the JSON file
-fetch('data/champions.json')
-  .then(function(response) {
-    return response.json(); 
-  })
-  .then(function(championList) {
-    // 3. Store the data globally
-    ALL_CHAMPIONS = championList; 
-
-    // 4. Initial render of all champions
-    renderChampions(ALL_CHAMPIONS, championsContainer); 
-
-    // 5. Attach the event listener to the search bar
-    searchField.addEventListener('input', handleSearch);
-
-  })
-  .catch(function(error) {
-    console.log('Error loading JSON:', error);
-    championsContainer.innerHTML = "<p>Could not load champion data.</p>";
-  });
-
-
 // Function to handle the search/filtering logic
 function handleSearch(event) {
     // 1. Get the input value and normalize it (lowercase, trim whitespace)
@@ -86,3 +63,40 @@ function handleSearch(event) {
     // 3. Render the filtered results
     renderChampions(filteredChampions, championsContainer);
 }
+
+// NEW FUNCTION: Handles the Enter key press to hide the mobile keyboard
+function handleKeydown(event) {
+    // Check if the pressed key is the 'Enter' key
+    if (event.key === 'Enter') {
+        // Prevents the default action
+        event.preventDefault(); 
+        
+        // Remove focus from the input, which closes the mobile keyboard
+        event.target.blur(); 
+    }
+}
+
+
+// Step 2: Load the JSON file
+fetch('data/champions.json')
+  .then(function(response) {
+    return response.json(); 
+  })
+  .then(function(championList) {
+    // 3. Store the data globally
+    ALL_CHAMPIONS = championList; 
+
+    // 4. Initial render of all champions
+    renderChampions(ALL_CHAMPIONS, championsContainer); 
+
+    // 5. Attach the event listener for live filtering
+    searchField.addEventListener('input', handleSearch);
+    
+    // 6. Attach the keydown listener for mobile keyboard hiding <--- CHANGE IS HERE
+    searchField.addEventListener('keydown', handleKeydown);
+
+  })
+  .catch(function(error) {
+    console.log('Error loading JSON:', error);
+    championsContainer.innerHTML = "<p>Could not load champion data.</p>";
+  });
