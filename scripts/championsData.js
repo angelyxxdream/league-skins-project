@@ -5,6 +5,19 @@ let ALL_CHAMPIONS = [];
 const championsContainer = document.querySelector('.js-champions-grid');
 const searchField = document.querySelector('.js-search-field'); 
 
+// --- DATE CALCULATION FUNCTION ---
+function calculateDaysPassed(dateString) {
+    const pastDate = new Date(dateString); 
+    const today = new Date();
+    today.setHours(0, 0, 0, 0); 
+    
+    const differenceInTime = today.getTime() - pastDate.getTime();
+    const millisecondsInDay = 1000 * 60 * 60 * 24;
+    const days = Math.floor(differenceInTime / millisecondsInDay);
+    
+    return Math.max(0, days); 
+}
+
 // Function to create and append the champion cards
 function renderChampions(championList, container) {
     // Clear the current content of the grid
@@ -77,14 +90,48 @@ function handleKeydown(event) {
 }
 
 
-// Step 2: Load the JSON file
-fetch('data/champions.json')
+// Step 2: Load the JSON file and process the date math
+fetch('scripts/champions.json')
   .then(function(response) {
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     return response.json(); 
   })
   .then(function(championList) {
-    // 3. Store the data globally
-    ALL_CHAMPIONS = championList; 
+    
+    // 🔥 DATE MATH AND MESSAGE GENERATION HAPPENS HERE 🔥
+    const finalList = championList.map(c => {
+        
+        // Assumes you manually added the 'latest_skin_date' field to your JSON
+        const releaseDate = c.latest_skin_date; 
+        
+        let days = undefined;
+        let displayMessage;
+
+        if (releaseDate) {
+            days = calculateDaysPassed(releaseDate); // Perform the math
+        }
+
+        // Conditional Logic for dynamic messaging
+        if (days === undefined) {
+            displayMessage = 'Date not found (Missing data)';
+        } else if (days <= 0) { 
+            displayMessage = '✨ NEW SKIN AVAILABLE NOW! ✨'; 
+        } else if (days === 1) {
+            displayMessage = `${days} day since last release`;
+        }
+        else {
+            displayMessage = `${days} days since last release`;
+        }
+
+        return {
+            ...c,
+            last_skin_days: displayMessage // Attach the final message string
+        };
+    });
+    // 🔥 END DATE MATH BLOCK 🔥
+    
+    // 3. Store the processed data globally
+    ALL_CHAMPIONS = finalList; 
 
     // 4. Initial render of all champions
     renderChampions(ALL_CHAMPIONS, championsContainer); 
@@ -92,7 +139,7 @@ fetch('data/champions.json')
     // 5. Attach the event listener for live filtering
     searchField.addEventListener('input', handleSearch);
     
-    // 6. Attach the keydown listener for mobile keyboard hiding <--- CHANGE IS HERE
+    // 6. Attach the keydown listener for mobile keyboard hiding
     searchField.addEventListener('keydown', handleKeydown);
 
   })
