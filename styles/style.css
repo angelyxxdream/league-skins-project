@@ -108,6 +108,22 @@ h2 {
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.champion-card:hover {
+    /* Lifts the card up slightly (the "pop") */
+    transform: translateY(-5px);
+    
+    /* Adds a darker, more defined shadow plus a subtle teal glow */
+    box-shadow: 
+        0 8px 15px rgba(0, 0, 0, 0.2), /* Stronger shadow underneath */
+        0 0 10px rgba(59, 96, 100, 0.4); /* Glow using your dark teal #3B6064 */
+    
+    cursor: pointer; /* Indicates it's clickable/interactive */
+    
+    /* Optional: Slightly thicken the border with your medium teal */
+    border: 1px solid #55828B; 
 }
 
 .champion-card img {
